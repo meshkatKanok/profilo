@@ -223,6 +223,12 @@ caption {
   text-align: left;
   caption-side: bottom;
 }
+.come{
+  background:url('../img/comming.gif')no-repeat center center;
+  background-size: cover;
+  height:800px;
+  width: 100%;
+}
 .welcome{
   background:url('../img/erth.gif')no-repeat center center;
   background-size: cover;
