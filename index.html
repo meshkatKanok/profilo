@@ -30,10 +30,13 @@
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="51">
+   
+   
+   
     <!-- Navbar Start -->
     <nav class="navbar fixed-top shadow-sm navbar-expand-lg   bg-light navbar-light py-3 py-lg-0 px-lg-5">
         <a href="index.html" class="navbar-brand ml-lg-3">
-             <img class="w-25" src="./img/ms-removebg-preview.png" alt="">
+            <h1 class="m-0 display-5"><span class="text-primary">React Master</span></h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -42,6 +45,7 @@
             <div class="navbar-nav m-auto py-0">
                 <a href="#home" class="nav-item nav-link ">Home</a>
                 <a href="#skill" class="nav-item nav-link  ">Skill</a>
+                <a href="#about" class="nav-item nav-link">About</a>
                 <a href="#blog" class="nav-item nav-link  ">My Project</a>
                 <a href="#contact" class="nav-item nav-link  ">Contact</a>
             </div>
@@ -165,7 +169,37 @@
     <!-- Skill End -->
 
 
-   
+   <!-- About Start -->
+   <div class="container-fluid py-5" id="about">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+            <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-5 pb-4 pb-lg-0">
+                <img class="img-fluid rounded w-100" src="img/kanok.jpg" alt="">
+            </div>
+            <div class="col-lg-7">
+                <h3 class="mb-4">Mern Stack Developer</h3>
+                <p>I am Meshkat Siddik Kanok.I am MERN STACK Developer.My Skills React JS, JavaScript, Node JS, Express JS, MongoDB, Material-UI firebase, React routerdom,,React Hook,Form,TanStack,Query,Bootstrap5,Tailwind,css,daisyUI,Flowbite,,Css3,Html5,Es6.</p>
+                <div class="row mb-3">
+                    <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Meshkat siddik Kanok</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">11 March 2003</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Diploma in Computer</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">6th month</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">01789011636</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">meshkatkanok12@gmail.com</span></h6></div>
+                    <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Mirpur,Dhaka,Bangladesh</span></h6></div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
 
 
     
@@ -183,13 +217,8 @@
                     <div class="position-relative mb-4">
                         <img class="img-fluid rounded w-100" src="./img/sug.PNG" alt="">
                     </div>
-                    <h3>Reseller Market</h3>
-                    <p class="  mb-4">This is a website selling old products. Here, both buyers and sellers can buy and sell their products. And there
-                        will be an admin who can delete buyers and sellers</p>
                         <div>
-                            <a class="btn btn-sm btn-outline-dark py-2" href="https://github.com/meshkatKanok/reseller-website-client"target="_blank">GitHub</a>
-                            <a class="btn btn-sm btn-outline-dark py-2" href="https://github.com/meshkatKanok/reseller-websiter-server"target="_blank">Server side</a>
-                            <a class="btn btn-sm btn-outline-dark py-2" href="https://resellercar-a7e93.web.app/">Live</a>
+                            <a class="btn w-100 mt-3 btn-dark py-2" onclick="location.href='reseller.html'">Explore Now</a>
                         </div>
                 </div>
                 <div class="col-lg-4 mb-5" data-aos="fade-down">
@@ -197,13 +226,8 @@
                         <img class="img-fluid rounded w-100" src="img/travel.PNG" alt="">
                          
                     </div>
-                    <h3>Travels Services</h3>
-                    <p class=" mb-4">This is a travel services website.Some services are provided here and all details can be seen by clicking on the
-                        service</p>
                         <div>
-                            <a class="btn btn-sm btn-outline-dark py-2" target="_blank" href="https://github.com/meshkatKanok/travel-service-e-web">GitHub</a>
-                            <a class="btn btn-sm btn-outline-dark py-2" target="_blank" href="https://github.com/meshkatKanok/travel-services-web-server">Server side</a>
-                            <a class="btn btn-sm btn-outline-dark py-2" target="_blank" href="https://travel-services-6ccd3.web.app/home">Live</a>
+                            <a class="btn w-100  btn-dark py-2" onclick="location.href='explore.html'">Explore Now</a>
                         </div>
                 </div>
                 <div class="col-lg-4 mb-5" data-aos="fade-up">
@@ -211,13 +235,9 @@
                         <img class="img-fluid rounded w-100" src="img/course.PNG" alt="">
                         
                     </div>
-                    <h3>Course Website</h3>
-                    <p class=" mb-4">It is a course website. There are basically many courses, and the course details are given here. There's a button
-                        called "Details,".</p>
                         <div>
-                            <a class="btn btn-sm btn-outline-dark py-2 mt-2" target="_blank" href="https://github.com/meshkatKanok/Coursetoutorials">GitHub</a>
-                            <a class="btn btn-sm btn-outline-dark py-2 mt-2 " target="_blank" href="https://github.com/meshkatKanok/CourseTourorial-Server">Server side</a>
-                            <a class="btn btn-sm btn-outline-dark py-2 mt-2" target="_blank" href="https://courseproject-7e820.web.app/home">Live</a>
+                           
+                            <a class="btn w-100 mt-2 btn-dark py-2" onclick="location.href='course.html'">Explore Now</a>
                         </div>
                 </div>
             </div>
@@ -326,6 +346,8 @@
 );
 
     }
+
+   
     </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
